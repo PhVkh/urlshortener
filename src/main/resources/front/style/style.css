@@ -1,0 +1,61 @@
+input {
+    font-size: 20px;
+    border-color: #056333;
+    outline: none;
+    border-style: dashed; /*solid*/
+}
+
+#url {
+    width: 200px;
+}
+
+#button {
+    width: 75px;
+    color: #ffffff;
+    background-color: #056333;
+    outline: none;
+    border: none #056333;
+}
+
+#path {
+    width: 150px;
+    font-size: 20px;
+}
+
+body {
+    height: 100%;
+}
+
+#crocodile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 678px;
+    height: 200px;
+}
+
+#croco_body {
+    float: left;
+    width: 478px;
+    height: 120px;
+    margin-top: -4px;
+    background-image: url("../img/croco_body.png");
+}
+
+#croco_head {
+    float: left;
+}
+
+#croco_eye {
+    width: 30px;
+    height: 26px;
+    margin-left: 500px;
+    background-image: url("../img/croco_eye.png");
+}
+
+form {
+    width: 200px;
+}
